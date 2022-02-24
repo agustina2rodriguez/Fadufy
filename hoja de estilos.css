@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap'); 
+
+
+*{
+    margin: 0; 
+    padding: 0;   
+    box-sizing: border-box; 
+    scroll-behavior: smooth; 
+    transition: all 1s;
+}
+
+body{
+    background: linear-gradient(180deg, #FFFFFF 0%, #FAFCFF 27.6%, #F2F7FF 40.1%,#82B1FF 100%);
+}
+
+.no-index {
+    background: none;
+}
+
+a,li, a:link{
+    text-decoration: none;
+}
+
+nav a:visited{
+    color:#000000;
+    text-decoration: none;
+}
+
+h3,p, a:visited{
+    color:#000000;
+    text-decoration: none;
+}
+
+html{
+    overflow-x: hidden;
+}    
+
+.index-body{ 
+    display: flex; 
+    justify-self: center; 
+    align-items: center;
+}
+
+.app header nav{ 
+    display: flex; 
+    justify-content: center;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Poppins',sans-serif;
+    font-weight: 400;
+    font-size: 0.85rem;
+    text-align: left;
+}
+
+h2{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 5rem;
+}
+
+h3{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+} 
+
+h4{
+    font-family: 'Krona One', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+/**NAV DESKTOP**/
+
+header {
+    display: flex;
+    flex-direction: row ; 
+    justify-content: space-between;
+    padding: 0.5rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    margin-top: 2rem;
+}
+
+header nav a{
+    color: rgb(0, 0, 0); 
+    text-decoration: none;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+}
+    
+.imagen-header{
+    padding: 1rem ;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem; 
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/**FOOTER DESKTOP**/
+
+footer {        
+    background: #051321; 
+    text-align: center;
+    padding: 1.5rem;
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    align-content: center;
+}
+
+footer img {
+    margin-left: 2rem; 
+    margin-right: 4rem; 
+    width: 9rem;
+}
+
+footer p {
+    width:20.6rem;
+    color: #FFFFFF;
+    text-align: left;
+}
+
+footer .footer-legales {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer .parrafooter{
+    line-height: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer .resaltado-azul {
+    color: #82B1FF;
+    font-weight: 700;
+}
+
+footer .resaltado-azul-2 {
+    color: #82B1FF;
+    font-weight: 700;
+    font-style: italic;
+}
+
+/**LANDING DESKTOP**/
+
+.seccion-descargar{
+    padding-top: 3rem;
+    display: flex;
+    justify-items: center;
+    margin-left: 5rem;
+    margin-right:  5rem;
+}
+
+.seccion-descargar .celular {
+    width: 100%;
+    padding-left: 2rem;
+}
+
+
+.seccion-descargar .llego-fadufy{
+    padding-top: 2rem;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.seccion-descargar .llego-fadufy p{
+    width: 30rem;
+    padding-bottom: 1rem;
+}
+
+.seccion-descargar .btn{
+    padding-right: 0.5rem;
+}
+
+
+.llego-fadufy .h2-fadufy{
+    color: #1976d2;
+    text-align: left;
+}
+
+.seccion-descargar2{ 
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex; 
+    flex-direction: row-reverse; 
+    justify-content: center;
+}
+
+.registrate{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.registrate .ilus {
+    width: 35rem;
+}
+
+.seccion-descargar3{ 
+    margin-left: 5rem;
+    margin-right: 5rem;
+    display: flex; 
+    flex-direction: row; 
+    justify-content: center;
+}
+
+.info-registro{
+    align-items: center;
+    padding-top: 13rem;
+    width: 30rem;
+}
+
+.h2-conductor{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    color: #8d0ddd;
+    text-align: center;
+}
+
+.masgrande{
+    font-size: 2.5rem;
+}
+
+.section-btn{ 
+    padding-top: 4rem;
+    display:flex; 
+    flex-direction: column ;
+    align-items: center; 
+    justify-content: center;
+}
+
+.h3-boton{
+    display: inline-block; 
+    background: #1976d2; 
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    font-size: 1rem;
+    padding: 0.7rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    border-radius: 0.5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.h3-boton:hover{
+    background-color: #8d0ddd;
+}
+
+/**INDEX DESKTOP**/
+
+.integrantes{
+    margin-top: 3rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color:#E6F0FF;
+}
+
+.personas {
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin-top: 3rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.personas div{
+    margin-left: 5.6rem;
+}
+
+.personas img{
+    width: 70%;
+    border-radius: 100%;
+    margin-bottom: 1rem;
+}
+
+.personas div h3, p{
+    text-align: left;
+    padding: 0.3rem;
+}
+
+.descripcion-fadufy{
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.descripcion-fadufy p{
+    margin-left: 25rem;
+    margin-right: 25rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.descripcion-fadufy img{
+    width: 05%;
+    margin-bottom: 3rem;
+}
+
+
+.h2-fadufy{
+    color: #1976d2;
+    text-align: center;
+}
+
+.personas img:hover{
+    box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.personas h3:hover{
+    color: #1976d2;
+}
